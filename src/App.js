@@ -1,9 +1,9 @@
+import Body from "./Components/Body";
+
 
 function App() {
   return (
-    <div className="text-xl">
-      Namaste Netflix GPT
-    </div>
+    <Body/>
   );
 }
 
