@@ -18,5 +18,10 @@
 <li>Send data to redux store using <strong>useDispatch</strong></li>
 <li>Used <strong>useEffect</strong> to update user details on authentication change</li>
 <li>Used <strong>useRef</strong> to set name, email and password initial values as null</li>
+<li>Built Home page having Hero(Main) Movie </li>
+<li>Fetch movie data from TMDB API</li>
+<li>Stored movies and trailer datas in Redux store</li>
+<li>Fetch from redux store using <strong>useSelector</strong> and stored the data using <strong>useDispatch</strong></li>
+<li>Made page visually appealing using Tailwind CSS</li>
 </ul>
 <h3>More Updates Soon...</h3>
