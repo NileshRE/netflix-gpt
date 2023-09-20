@@ -1,5 +1,4 @@
 <h1>Netflix GPT</h1>
-
 <h3> Features </h3>
 <ul>
 <li>Initiate a create-react-app using terminal</li>
@@ -22,6 +21,10 @@
 <li>Fetch movie data from TMDB API</li>
 <li>Stored movies and trailer datas in Redux store</li>
 <li>Fetch from redux store using <strong>useSelector</strong> and stored the data using <strong>useDispatch</strong></li>
-<li>Made page visually appealing using Tailwind CSS</li>
+<li>Rendered movie lists now playing, popular, upcoming, top rated and On the air series list in the home page</li>
+<li>Stored several categories movies data in Redux store by creating reducer functions</li>
+<li>Built custom Hooks for API Rendering different movie categories list</li>
+<li>Used useEffect for API call and useDispatch for sending data got from API</li>
+<li>Used useSelector to get data from the Redux store</li>
 </ul>
 <h3>More Updates Soon...</h3>
