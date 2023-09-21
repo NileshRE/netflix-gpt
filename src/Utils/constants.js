@@ -2,12 +2,20 @@ export const Logo='https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-89723
 
 export const UserIcon='https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-88wkdmjrorckekha.jpg'
 
+export const Home_Bg = 'https://assets.nflxext.com/ffe/siteui/vlv3/dc1cf82d-97c9-409f-b7c8-6ac1718946d6/14a8fe85-b6f4-4c06-8eaf-eccf3276d557/IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_medium.jpg';
+
+export const Search_Bg='https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg';
+
 export const API_Options = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YTVlN2UxMzU2YjNjNDdlYTE1NjM5N2I2MDg0NTBhZCIsInN1YiI6IjY1MGFmMzQ3MTJjNjA0MDEzOGZlNGMwZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.N3C-_ILbBiy4_j09mEcRHDkSgjdh5bMdq8uPw0m7sD8'
-    }
-  };
+      Authorization: 
+      // eslint-disable-next-line no-useless-concat
+      "Bearer" + " " + process.env.REACT_APP_TMDB_KEY,
+  },
+};
 
   export const IMG_CDN = 'https://image.tmdb.org/t/p/w500/';
+
+  export const Open_AI_key = process.env.REACT_APP_OPENAI_KEY;
